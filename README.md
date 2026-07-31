@@ -12,6 +12,7 @@ Hardware – PCs
 Anaconda – Python 3.7 Installation / Google Colab /Jupyter Notebook
 
 # RELATED THEORETICAL CONCEPT:
+
 A Perceptron is a basic learning algorithm invented in 1959 by Frank Rosenblatt. It is meant to mimic the working logic of a biological neuron. The human brain is basically a collection of many interconnected neurons. Each one receives a set of inputs, applies some sort of computation on them and propagates the result to other neurons.<BR>
 A Perceptron is an algorithm used for supervised learning of binary classifiers.Given a sample, the neuron classifies it by assigning a weight to its features. To accomplish this a Perceptron undergoes two phases: training and testing. During training phase weights are initialized to an arbitrary value. Perceptron is then asked to evaluate a sample and compare its decision with the actual class of the sample.If the algorithm chose the wrong class weights are adjusted to better match that particular sample. This process is repeated over and over to finely optimize the biases. After that, the algorithm is ready to be tested against a new set of completely unknown samples to evaluate if the trained model is general enough to cope with real-world samples.<BR>
 The important Key points to be focused to implement a perceptron:
@@ -23,9 +24,6 @@ If we represent samples as vectors of size n, where ‘n’ is the number of its
 f(x)=w.x+b
  <BR>
 A threshold function, usually Heaviside or sign functions, maps the scalar value to a binary output:
-
- 
-
 
 <img width="283" alt="image" src="https://github.com/Lavanyajoyce/Ex-2--NN/assets/112920679/c6d2bd42-3ec1-42c1-8662-899fa450f483">
 
